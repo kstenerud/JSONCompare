@@ -3,7 +3,9 @@ JSONCompare
 
 A program to compare the speeds of various Objective-C JSON libraries.
 
-### Latest results (on iPhone 3GS):
+
+Latest results (on iPhone 3GS)
+==============================
 
     2011-11-06 21:33:29.171 JSONCompare[1401:307] =============================================
     2011-11-06 21:33:29.176 JSONCompare[1401:307] ======== Beginning encode comparison ========
@@ -36,6 +38,18 @@ A program to compare the speeds of various Objective-C JSON libraries.
     2011-11-06 21:35:50.273 JSONCompare[1401:307] =============================================
     2011-11-06 21:35:50.276 JSONCompare[1401:307] =========== End decode comparison ===========
     2011-11-06 21:35:50.278 JSONCompare[1401:307] =============================================
+
+
+Links
+=====
+
+https://github.com/johnezang/JSONKit
+https://github.com/kstenerud/KSJSON
+https://github.com/lloyd/yajl
+https://github.com/TouchCode/TouchJSON
+https://github.com/mysterioustrousers/MTJSON
+https://github.com/stig/json-framework
+https://github.com/blakeseely/bsjsonadditions
 
 
 License
