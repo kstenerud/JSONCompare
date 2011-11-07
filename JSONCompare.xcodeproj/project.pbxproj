@@ -231,7 +231,6 @@
 				39DD7AF1145D028E00526ED5 /* Codecs.m */,
 				39DD7AF3145D097500526ED5 /* CodecTests.h */,
 				39DD7AF4145D097500526ED5 /* CodecTests.m */,
-				39DD7AF6145D0B8F00526ED5 /* twitter_feed.json */,
 			);
 			path = JSONCompare;
 			sourceTree = "<group>";
@@ -243,6 +242,7 @@
 				39DD79C2145CFF7200526ED5 /* InfoPlist.strings */,
 				39DD79C5145CFF7200526ED5 /* main.m */,
 				39DD79C7145CFF7200526ED5 /* JSONCompare-Prefix.pch */,
+				39DD7AF6145D0B8F00526ED5 /* twitter_feed.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -655,6 +655,7 @@
 				39DD79D5145CFF7200526ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

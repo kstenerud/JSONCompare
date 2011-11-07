@@ -91,12 +91,18 @@
 
 - (id) decodeString:(NSString*) json
 {
-    return [KSJSON deserializeString:json];
+    NSError* error;
+    id result = [KSJSON deserializeString:json error:&error];
+    if(result == nil)
+    {
+        NSLog(@"%@", error);
+    }
+    return result;
 }
 
 - (NSString*) encodeContainer:(id) container
 {
-    return [KSJSON serializeObject:container];
+    return [KSJSON serializeObject:container error:nil];
 }
 
 @end
