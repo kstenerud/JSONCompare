@@ -43,13 +43,13 @@ Latest results (on iPhone 3GS)
 Links
 =====
 
-https://github.com/johnezang/JSONKit
-https://github.com/kstenerud/KSJSON
-https://github.com/lloyd/yajl
-https://github.com/TouchCode/TouchJSON
-https://github.com/mysterioustrousers/MTJSON
-https://github.com/stig/json-framework
-https://github.com/blakeseely/bsjsonadditions
+* https://github.com/johnezang/JSONKit
+* https://github.com/kstenerud/KSJSON
+* https://github.com/lloyd/yajl
+* https://github.com/TouchCode/TouchJSON
+* https://github.com/mysterioustrousers/MTJSON
+* https://github.com/stig/json-framework
+* https://github.com/blakeseely/bsjsonadditions
 
 
 License
