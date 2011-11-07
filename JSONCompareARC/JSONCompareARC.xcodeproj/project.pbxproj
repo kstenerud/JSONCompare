@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		398FC24114677C3C00974ADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398FC24014677C3C00974ADB /* UIKit.framework */; };
+		398FC24314677C3C00974ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398FC24214677C3C00974ADB /* Foundation.framework */; };
+		398FC24514677C3C00974ADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398FC24414677C3C00974ADB /* CoreGraphics.framework */; };
+		398FC24B14677C3C00974ADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398FC24914677C3C00974ADB /* InfoPlist.strings */; };
+		398FC24D14677C3C00974ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 398FC24C14677C3C00974ADB /* main.m */; };
+		398FC25114677C3C00974ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 398FC25014677C3C00974ADB /* AppDelegate.m */; };
+		398FC25414677C3C00974ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398FC25314677C3C00974ADB /* ViewController.m */; };
+		398FC25714677C3C00974ADB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398FC25514677C3C00974ADB /* ViewController.xib */; };
+		398FC26314677C7400974ADB /* KSJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 398FC26214677C7400974ADB /* KSJSON.m */; };
+		398FC26714677C8F00974ADB /* twitter_feed.json in Resources */ = {isa = PBXBuildFile; fileRef = 398FC26614677C8F00974ADB /* twitter_feed.json */; };
+		398FC26A14677D0F00974ADB /* CodecTestsARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 398FC26914677D0F00974ADB /* CodecTestsARC.m */; };
+		398FC27114677D5E00974ADB /* CodecsARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 398FC27014677D5E00974ADB /* CodecsARC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		398FC23C14677C3C00974ADB /* JSONCompareARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONCompareARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		398FC24014677C3C00974ADB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		398FC24214677C3C00974ADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		398FC24414677C3C00974ADB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		398FC24814677C3C00974ADB /* JSONCompareARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONCompareARC-Info.plist"; sourceTree = "<group>"; };
+		398FC24A14677C3C00974ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		398FC24C14677C3C00974ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		398FC24E14677C3C00974ADB /* JSONCompareARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONCompareARC-Prefix.pch"; sourceTree = "<group>"; };
+		398FC24F14677C3C00974ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		398FC25014677C3C00974ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		398FC25214677C3C00974ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		398FC25314677C3C00974ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		398FC25614677C3C00974ADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		398FC26114677C7400974ADB /* KSJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSJSON.h; path = ../../JSONCompare/Libraries/KSJSON/KSJSON.h; sourceTree = "<group>"; };
+		398FC26214677C7400974ADB /* KSJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSJSON.m; path = ../../JSONCompare/Libraries/KSJSON/KSJSON.m; sourceTree = "<group>"; };
+		398FC26614677C8F00974ADB /* twitter_feed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = twitter_feed.json; path = ../../JSONCompare/twitter_feed.json; sourceTree = "<group>"; };
+		398FC26814677D0F00974ADB /* CodecTestsARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodecTestsARC.h; sourceTree = "<group>"; };
+		398FC26914677D0F00974ADB /* CodecTestsARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodecTestsARC.m; sourceTree = "<group>"; };
+		398FC26F14677D5E00974ADB /* CodecsARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodecsARC.h; sourceTree = "<group>"; };
+		398FC27014677D5E00974ADB /* CodecsARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodecsARC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398FC23914677C3C00974ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398FC24114677C3C00974ADB /* UIKit.framework in Frameworks */,
+				398FC24314677C3C00974ADB /* Foundation.framework in Frameworks */,
+				398FC24514677C3C00974ADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398FC23114677C3C00974ADB = {
+			isa = PBXGroup;
+			children = (
+				398FC24614677C3C00974ADB /* JSONCompareARC */,
+				398FC23F14677C3C00974ADB /* Frameworks */,
+				398FC23D14677C3C00974ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398FC23D14677C3C00974ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398FC23C14677C3C00974ADB /* JSONCompareARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		398FC23F14677C3C00974ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398FC24014677C3C00974ADB /* UIKit.framework */,
+				398FC24214677C3C00974ADB /* Foundation.framework */,
+				398FC24414677C3C00974ADB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		398FC24614677C3C00974ADB /* JSONCompareARC */ = {
+			isa = PBXGroup;
+			children = (
+				398FC26114677C7400974ADB /* KSJSON.h */,
+				398FC26214677C7400974ADB /* KSJSON.m */,
+				398FC26814677D0F00974ADB /* CodecTestsARC.h */,
+				398FC26914677D0F00974ADB /* CodecTestsARC.m */,
+				398FC26F14677D5E00974ADB /* CodecsARC.h */,
+				398FC27014677D5E00974ADB /* CodecsARC.m */,
+				398FC24F14677C3C00974ADB /* AppDelegate.h */,
+				398FC25014677C3C00974ADB /* AppDelegate.m */,
+				398FC25214677C3C00974ADB /* ViewController.h */,
+				398FC25314677C3C00974ADB /* ViewController.m */,
+				398FC25514677C3C00974ADB /* ViewController.xib */,
+				398FC24714677C3C00974ADB /* Supporting Files */,
+			);
+			path = JSONCompareARC;
+			sourceTree = "<group>";
+		};
+		398FC24714677C3C00974ADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398FC26614677C8F00974ADB /* twitter_feed.json */,
+				398FC24814677C3C00974ADB /* JSONCompareARC-Info.plist */,
+				398FC24914677C3C00974ADB /* InfoPlist.strings */,
+				398FC24C14677C3C00974ADB /* main.m */,
+				398FC24E14677C3C00974ADB /* JSONCompareARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398FC23B14677C3C00974ADB /* JSONCompareARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398FC25A14677C3C00974ADB /* Build configuration list for PBXNativeTarget "JSONCompareARC" */;
+			buildPhases = (
+				398FC23814677C3C00974ADB /* Sources */,
+				398FC23914677C3C00974ADB /* Frameworks */,
+				398FC23A14677C3C00974ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONCompareARC;
+			productName = JSONCompareARC;
+			productReference = 398FC23C14677C3C00974ADB /* JSONCompareARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398FC23314677C3C00974ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Stenerud;
+			};
+			buildConfigurationList = 398FC23614677C3C00974ADB /* Build configuration list for PBXProject "JSONCompareARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 398FC23114677C3C00974ADB;
+			productRefGroup = 398FC23D14677C3C00974ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398FC23B14677C3C00974ADB /* JSONCompareARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398FC23A14677C3C00974ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398FC24B14677C3C00974ADB /* InfoPlist.strings in Resources */,
+				398FC25714677C3C00974ADB /* ViewController.xib in Resources */,
+				398FC26714677C8F00974ADB /* twitter_feed.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398FC23814677C3C00974ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398FC24D14677C3C00974ADB /* main.m in Sources */,
+				398FC25114677C3C00974ADB /* AppDelegate.m in Sources */,
+				398FC25414677C3C00974ADB /* ViewController.m in Sources */,
+				398FC26314677C7400974ADB /* KSJSON.m in Sources */,
+				398FC26A14677D0F00974ADB /* CodecTestsARC.m in Sources */,
+				398FC27114677D5E00974ADB /* CodecsARC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		398FC24914677C3C00974ADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398FC24A14677C3C00974ADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		398FC25514677C3C00974ADB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398FC25614677C3C00974ADB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		398FC25814677C3C00974ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		398FC25914677C3C00974ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		398FC25B14677C3C00974ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONCompareARC/JSONCompareARC-Prefix.pch";
+				INFOPLIST_FILE = "JSONCompareARC/JSONCompareARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		398FC25C14677C3C00974ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONCompareARC/JSONCompareARC-Prefix.pch";
+				INFOPLIST_FILE = "JSONCompareARC/JSONCompareARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398FC23614677C3C00974ADB /* Build configuration list for PBXProject "JSONCompareARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398FC25814677C3C00974ADB /* Debug */,
+				398FC25914677C3C00974ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398FC25A14677C3C00974ADB /* Build configuration list for PBXNativeTarget "JSONCompareARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398FC25B14677C3C00974ADB /* Debug */,
+				398FC25C14677C3C00974ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 398FC23314677C3C00974ADB /* Project object */;
+}
